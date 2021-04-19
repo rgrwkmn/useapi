@@ -1,0 +1,23 @@
+{
+  "name": "useapi",
+  "version": "1.0.0",
+  "description": "api request and state management hook for react and preact",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgrwkmn/useapi.git"
+  },
+  "author": "Roger Wakeman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgrwkmn/useapi/issues"
+  },
+  "homepage": "https://github.com/rgrwkmn/useapi#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
