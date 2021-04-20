@@ -27,6 +27,9 @@ export default function createUseApi({
   function useApiData(options, dependencies) {
     const [state, setState] = useState(null);
     const makeRequest = () => {
+      if (state !== null) {
+        setState(null);
+      }
       fetchHandler(options).
         then((data) => {
           setState(data);
